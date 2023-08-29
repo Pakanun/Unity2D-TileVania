@@ -22637,8 +22637,8 @@ Transform:
   - {fileID: 311472327}
   - {fileID: 1364294467}
   - {fileID: 2006130001}
-  - {fileID: 400768397}
   - {fileID: 529212416}
+  - {fileID: 400768397}
   - {fileID: 1837907343}
   - {fileID: 1498752906}
   m_Father: {fileID: 1479059695}
@@ -22966,33 +22966,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1282803541151491271, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Size.x
-      value: 0.36798763
-      objectReference: {fileID: 0}
-    - target: {fileID: 1282803541151491271, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Size.y
-      value: 0.057766676
-      objectReference: {fileID: 0}
-    - target: {fileID: 1282803541151491271, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 4696ae329eea4094ebb651d2d19a0890, type: 2}
-    - target: {fileID: 1282803541151491271, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0419631
-      objectReference: {fileID: 0}
-    - target: {fileID: 1282803541151491271, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.48724568
-      objectReference: {fileID: 0}
     - target: {fileID: 2095513589048225641, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2095513589048225641, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2095513589048225642, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
       propertyPath: m_RootOrder
@@ -23036,18 +23012,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2095513589048225642, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3454410691244971657, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Size.y
-      value: 0.869426
-      objectReference: {fileID: 0}
-    - target: {fileID: 3454410691244971657, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.07004058
-      objectReference: {fileID: 0}
-    - target: {fileID: 9135659884930511042, guid: ad76de097ef22274680ebb63a32d346a, type: 3}
-      propertyPath: deathKick.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

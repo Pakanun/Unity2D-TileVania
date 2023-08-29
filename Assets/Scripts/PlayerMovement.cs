@@ -12,7 +12,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2(10f, 10f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
-    
+    [SerializeField] AudioClip jumpSFX;
+    [SerializeField] AudioClip fireSFX;
+
     Vector2 moveInput;
     Rigidbody2D rb;
     Animator anim;
@@ -57,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
         if(value.isPressed) 
         {
             rb.velocity += new Vector2(0f, jumpSpeed);
+            AudioSource.PlayClipAtPoint(jumpSFX, Camera.main.transform.position);
         }
     }
 
@@ -64,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         Instantiate(bullet, gun.position, transform.rotation);
+        AudioSource.PlayClipAtPoint(fireSFX, Camera.main.transform.position);
     }
 
     void Run()

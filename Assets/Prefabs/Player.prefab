@@ -228,6 +228,9 @@ MonoBehaviour:
   deathKick: {x: 0, y: 10}
   bullet: {fileID: 2632392663113943321, guid: 7f9c94c4125cb9f4ea45fbb88f05e8d0, type: 3}
   gun: {fileID: 3966573681703978131}
+  jumpSFX: {fileID: 8300000, guid: c1649b61f07050c4699d4288eee96327, type: 3}
+  fireSFX: {fileID: 8300000, guid: 487a1289a68c7594eb48257da5b8ff9a, type: 3}
+  dieSFX: {fileID: 8300000, guid: db1fa703d44993b45b478c7bd5e0551e, type: 3}
 --- !u!61 &1282803541151491271
 BoxCollider2D:
   m_ObjectHideFlags: 0
